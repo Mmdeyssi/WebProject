@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <img src="logo.png" alt="Club Logo" />
+      <h1 class="titre">Login</h1>
+
+      <form method="post" action="login.php">
+        <i class="far fa-envelope"></i>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="email" />
+        <i class="fas fa-lock"></i>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+        <button type="submit" name="submit">Login</button>
+        <a href="#" class="d-block">Forgot password?</a>
+        <hr />
+        <p class="mt-2">Don't have an account yet?</p>
+        <a href="signup.html" target="_blank">Sign up</a>
+      </form>
+    </div>
+    <link rel="stylesheet" href="js/all.min.js" />
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js" />
+  </body>
+</html>

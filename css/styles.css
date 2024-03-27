@@ -13,9 +13,17 @@ body {
 }
 
 .navbar {
-    background-color: black;
+    background-color: brown;
 }
 
 .nav-link {
     color: aliceblue;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link:focus {
+    color: yellowgreen;
 }

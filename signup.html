@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Signup</title>
+  </head>
+
+  <body>
+    <div class="main mt-5">
+      <form class="row" action="signup.php" method="POST">
+        <img src="logo.png" alt="Club Logo" />
+        <h1>club name</h1>
+        <div class="align-items-center">
+          <label for="inputfname" class="form-label">Fullname</label>
+          <input
+            type="text"
+            class="form-control d-block"
+            name="fullname"
+            id="inputfname"
+          />
+          <label for="inputuname" class="form-label">Username</label>
+          <input
+            type="text"
+            class="form-control d-block"
+            name="username"
+            id="inputuname"
+          />
+          <label for="inputEmail" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control d-block"
+            name="email"
+            id="inputemail"
+          />
+          <label for="inputPasswordd" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            id="inputPasswordd"
+          />
+          <label for="inputPasswordd" class="form-label"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            name="password_confirmation"
+            id="inputPasswordd"
+          />
+        </div>
+
+        <div class="col-12">
+          <br />
+          <button type="submit" name="submit">Sign up</button>
+          <p class="mt-2">You already have an account.</p>
+          <a href="login.html" target="_blank" rel="noopener noreferrer"
+            >Sign in</a
+          >
+        </div>
+      </form>
+    </div>
+    <link rel="stylesheet" href="js/all.min.js" />
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js" />
+  </body>
+</html>
